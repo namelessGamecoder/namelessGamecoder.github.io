@@ -71,6 +71,9 @@ p::after, nav::after {
     border: 0.35em solid #2c2f34;
     border-top: none;
 }
-.bottom-link{
+.top-text{
+    margin-top: 1em;
+}
+.bottom-text{
     margin-bottom: 1em;
 }
