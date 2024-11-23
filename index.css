@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    color:rgb(74, 236, 42);
+    font-family: "Press Start 2P";
+    background-color: rgba(0, 0, 0, 0.50);
+    background-image: url("EyeBackgroundWeb.png");
+    background-size: 10%;
+    background-position: top left;
+    background-blend-mode: multiply;
+    padding-left: 20%;
+    padding-right: 20%;
+    max-width: 60%;
+    font-size-adjust: 0.5;
+    line-height: 1;
+}
+a {
+    color: rgb(231, 154, 255);
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+}
+a:visited{
+    color: rgb(176, 120, 230);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 175, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active{
+    color: rgb(253, 127, 196);
+    background-color: transparent;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: fit-content;
+}
+p, nav {
+    padding: 0 1em;
+    background: black;
+    border: 0.25em solid;
+    border-image: linear-gradient(to bottom, #737b7b 0%, #737b7b 35%, #2c2f34 35%, #2c2f34 100%) 1;
+    outline: 0.75em solid #4f5557;
+    margin: 1em;
+}
+p::before, nav::before {
+    content: "";
+    height: 0.5em;
+    width: calc(100% + 3.4em);
+    display: block;
+    position: relative;
+    transform: translate(-2em, -1.25em);
+    border: 0.35em solid #737b7b;
+    border-bottom: none;
+}
+p::after, nav::after {
+    content: "";
+    height: 0.5em;
+    width: calc(100% + 3.4em);
+    display: block;
+    position: relative;
+    transform: translate(-2em, 1.25em);
+    border: 0.35em solid #2c2f34;
+    border-top: none;
+}
+.bottom-link{
+    margin-bottom: 1em;
+}
